@@ -1,0 +1,29 @@
+.p-feature-group {margin-bottom:2em; overflow:hidden}
+.p-feature-group-title {float:left}
+.p-feature-group-add_feature a {font-size:80%; margin-left:5px; font-weight:bold}
+.p-feature-group-edit a {font-size:80%; margin-left:5px; color:#a0a0a0}
+.p-feature-group-delete a {font-size:80%; margin-left:5px; color:#FF7A7A}
+.p-feature-group-table {width:100%; clear:both}
+.p-feature-group-table th {color:#aaa; font-weight:bold; padding-bottom:2px}
+
+.p-feature-title {width:50%}
+.p-feature-last_run {width:20%}
+.p-feature-control {width:6%}
+
+.p-feature-title {border-left-width:5px; border-left-style:solid; padding-left:10px}
+.p-feature-list td {vertical-align:top; padding:5px 5px 5px 10px}
+.p-feature-list-edit {font-size:80%; color:#a0a0a0; margin-left:2px}
+.p-feature-list-delete {font-size:80%; color:#FF7A7A; margin-left:2px}
+.p-feature-control a {font-size:150%; text-decoration:none}
+
+.pause-feature {
+  writing-mode:tb-rl;
+  -webkit-transform:rotate(90deg);
+  -moz-transform:rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+
+.ok td {border-left-color:#2C6E07; background:#C3FAAF}
+.failed td {border-left-color:#EB3636; background:#FA8E8E}
+.paused td {border-left-color:#C0C0C0; background:#f0f0f0}
+.wait_for_run td {border-left-color:#6BDCFF; background:#E5F9FF}

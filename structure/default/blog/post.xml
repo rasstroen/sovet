@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<structure>
+	<data>
+		<stylesheet path="partials/news"/>
+			<title>{news-title:get:1}</title>
+		<role need="0"/>
+	</data>
+	<blocks>
+		<content>
+			<module name="blog" action="post" >
+				<param name="blog_id" type="get" value="1" />
+				<param name="post_id" type="get" value="2" />
+			</module>
+			<module name="comments" action="list" >
+				<param name="table" type="var" value="blog" />
+				<param name="doc_id" type="get" value="2" />
+				<param name="per_page" type="var" value="12"/>
+				<param name="paging_parameter_name" type="var" value="p" />
+			</module>
+		</content>
+	</blocks>
+</structure>

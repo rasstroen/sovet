@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<structure>
+	<data>
+		<title>Добавление группы</title>
+		<role need="50"/>
+	</data>
+	<blocks>
+		<content><module name="groups" action="new" /></content>
+	</blocks>
+</structure>

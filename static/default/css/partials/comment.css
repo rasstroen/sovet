@@ -1,0 +1,5 @@
+.p-comment-list {margin-top:.5em; overflow:hidden}
+.p-comment-list-text-time {float:right; font-size:85%; color:#777}
+.p-comment-list-image {float:left; width:20px; margin-right:10px}
+.p-comment-list-image img {max-height:20px}
+.p-comment-list-answers {padding-left:30px}

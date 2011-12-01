@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<structure>
+	<data>
+		<javascript path="ace/ace" />
+		<javascript path="ace/mode-ruby" />
+		<javascript path="ace/theme-twilight" />
+		<javascript path="features/edit"/>
+		<title>Редактирование теста</title>
+		<role need="50"/>
+	</data>
+	<blocks>
+		<content>
+			<module name="news" action="edit" >
+				<param name="newsitem_id" type="get" value="1" />
+			</module>
+		</content>
+	</blocks>
+</structure>

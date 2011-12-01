@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<structure>
+	<data>
+		<layout file="layouts/page.xsl"/>
+		<stylesheet path="partials/news"/>
+
+		<title>Первый HARDTECHNO портал</title>
+		<role need="0"/>
+	</data>
+	<blocks>
+		<content>
+			<module name="news" action="list" mode="columns">
+				<param name="limit" type="var" value="6" />
+			</module>
+			<module name="releases" action="list">
+				<param name="limit" type="var" value="6" />
+			</module>
+			<!--module name="video" action="list">
+				<param name="limit" type="var" value="6" />
+			</module-->
+		</content>
+		<sidebar>
+			<!--module name="chat" action="show" mode="link" />
+			<module name="banner" action="show" mode="random" />
+			<module name="rotator" action="show" mode="random" />
+			<module name="users" action="list" mode="online">
+				<param name="limit" type="var" value="25" />
+			</module>
+			<module name="comments" action="list" mode="new">
+				<param name="limit" type="var" value="20" />
+			</module-->
+		</sidebar>
+	</blocks>
+</structure>

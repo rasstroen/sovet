@@ -1,0 +1,134 @@
+.comment_item
+{
+	position:relative;
+	margin:4px;
+}
+
+.comment_item .avatar
+{
+	padding:5px 5px 5px 5px;
+	float:left;
+
+}
+
+.comment_text
+{
+	display:block;
+	margin: 3px 18px 5px 15px;
+}
+
+.mod
+{
+	background:#f0f0fa !important;
+}
+
+.comment_form
+{
+	padding:10px 0px 0px 0px;
+}
+
+.comment_form textarea
+{
+	border:1px solid #aaa;
+	width:700px;
+	height:80px;
+}
+
+.clear
+{
+	font-size: 1px;
+	height:1px;
+	width:1px;
+	clear:both;
+}
+
+.comment_nick 
+{
+	padding-top:5px;
+	font-size : 10px !important;
+	font-style: italic;
+	font-weight : bolder;
+}
+
+.comment_nick:hover
+{
+	text-decoration: underline;
+	color:#D90000;
+}
+
+.comment_time
+{
+	font-size: 10px;
+	font-style: italic;
+	width:96px;
+	float:left;
+	padding-top:5px;
+}
+
+.reply,.up_to_parent,.delete_comment
+{
+	position:absolute;
+	bottom:2px;
+
+}
+
+.delete_comment
+{
+	right:72px;
+}
+
+.reply
+{
+	right:18px;
+}
+.comment_item
+{
+	border:1px solid #fff;
+}
+.comment_item:hover
+{
+	background:#eee! important;
+	border:1px solid #ddd;
+}
+
+.comment_item:hover .comment_href a, .comment_item:hover .delete_comment a
+{
+	display:block;
+}
+
+.reply a , .up_to_parent a , .comment_href a , .delete_comment a
+{
+	font-size:10px;
+}
+
+.comment_href
+{
+	top:1px;
+	position:absolute;
+
+}
+
+.up_to_parent , .comment_href
+{
+	right:11px;
+}
+
+.comment_href a , .delete_comment a
+{
+	display:none;
+}
+.comment_form_submit
+{
+	text-align: right;
+}
+
+.comment_form_submit input, .inp_log
+{
+	border:1px solid #bebebe;
+	background:white;
+	width:160px;
+	margin:5px -5px 0px 0px;
+	padding-right:-5px;
+	color : #444;
+	cursor: pointer;
+}

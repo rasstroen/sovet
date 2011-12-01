@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<structure>
+	<data>
+		<stylesheet path="partials/news"/>
+			<title></title>
+		<role need="0"/>
+	</data>
+	<blocks>
+		<content>
+			<module name="blog" action="show" >
+				<param name="blog_id" type="get" value="1" />
+			</module>
+		</content>
+	</blocks>
+</structure>

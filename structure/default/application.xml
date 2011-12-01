@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<structure>
+	<data>
+		<stylesheet path="reset"/>
+		<stylesheet path="layout"/>
+		<stylesheet path="module"/>
+		<stylesheet path="partials/comments"/>
+		<stylesheet path="partials/user"/>
+		<javascript path="jquery.min" />
+		<javascript path="application" />
+		<javascript path="jquery.timeago" />
+		<javascript path="swfobject" />
+		<layout file="layouts/page.xsl"/>
+		<role need="0"/>
+	</data>
+	<blocks>
+		<header>
+			<module name="users" action="show" mode="auth"/>
+		</header>
+		<sidebar>
+			<module name="banners" action="show" mode="random"/>
+		</sidebar>
+	</blocks>
+</structure>

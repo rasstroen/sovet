@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<structure>
+	<data>
+		<javascript path="tiny_mce/tiny_mce"/>
+		<stylesheet path="partials/news"/>
+		<javascript path="partials/news_edit" />
+		<stylesheet path="jquery-ui-1.8.16.custom"/>
+		<stylesheet path="jquery-ui-timepicker-addon"/>
+		<javascript path="jquery-ui"/>
+		<javascript path="jquery-ui-datepicker-ru"/>
+		<title>Добавление новости</title>
+		<role need="50"/>
+	</data>
+	<blocks>
+		<content>
+			<module name="news" action="new" />
+		</content>
+	</blocks>
+</structure>
